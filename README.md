@@ -37,21 +37,26 @@ Grafana:
 
 ```bash
 username - admin
-password - foobar (Password is stored in the `/grafana/config monitoring` env file)
+password - foobar (Password được lưu trong `/grafana/config monitoring` file env  )
 ```
   
 Minio:
 
 ```bash
 Access Key - smth
-Secret Key - Need8Chars (Keys are stored in the `docker-compose.yaml` file)
+Secret Key - Need8Chars (Keys được lưu trong `docker-compose.yaml` file)
 ```
 
 ## Explore metrics
 
-* Explore metrics via Grafana <http://localhost:3000/explore> or the Thanos Query Frontend <http://localhost:10901>
+* Explore metrics via Grafana <http://localhost:3000/explore> hoặc giao diện người dùng truy vấn Thanos <http://localhost:10901>
 
 ## Notes
 
 Dự án này nhằm mục đích bắt đầu nhanh chóng chạy với Thanos. Bảo mật không được thực hiện trong dự án này. Nó được truyền cảm hứng bởi:
-- <https://github.com/bibo318> 
+- <https://github.com/vegasbrianc/prometheus> (forked from this project)
+- <https://github.com/alexellis/quickstart-prometheus>
+Các phiên bản trong dự án: prometheus:v2.43.0 | grafana v9.4.7 | cadvisor:v0.36.0 |  alertmanager:v0.25.0 |  node-exporter:v1.5.0 | minio:RELEASE.2020-05-01T22-19-14Z | thanos:v0.31.0
+
+
+
