@@ -2,7 +2,7 @@ Bắt đầu và chạy với Thanos, Prometheus, Grafana, Alertmanager, cAdviso
 ## Running the example
 
 ```bash
-git clone https://github.com/dbluxo/quickstart-thanos
+git clone https://github.com/bibo318/Grafana-thanos-Prometheusvv
 cd quickstart-thanos
 docker-compose up -d
 ```
