@@ -56,7 +56,8 @@ Secret Key - Need8Chars (Keys được lưu trong `docker-compose.yaml` file)
 Dự án này nhằm mục đích bắt đầu nhanh chóng chạy với Thanos. Bảo mật không được thực hiện trong dự án này. Nó được truyền cảm hứng bởi:
 - <https://github.com/vegasbrianc/prometheus> (forked from this project)
 - <https://github.com/alexellis/quickstart-prometheus>
-Các phiên bản trong dự án: prometheus:v2.43.0 | grafana v9.4.7 | cadvisor:v0.36.0 |  alertmanager:v0.25.0 |  node-exporter:v1.5.0 | minio:RELEASE.2020-05-01T22-19-14Z | thanos:v0.31.0
+
+- Các phiên bản trong dự án: prometheus:v2.43.0 | grafana v9.4.7 | cadvisor:v0.36.0 |  alertmanager:v0.25.0 |  node-exporter:v1.5.0 | minio:RELEASE.2020-05-01T22-19-14Z | thanos:v0.31.0
 
 
 
